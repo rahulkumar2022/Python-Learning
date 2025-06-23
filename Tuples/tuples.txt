@@ -1,0 +1,29 @@
+Tuples are used to store multiple items in a single variable.
+
+Tuples are one of 4 built-in data types in python used to store collections of data, the other 3 are:
+ list, Set, and dictonary, all are diffenrent quality and different usage
+
+
+ A Tuples are written with round bracket
+ A Tuples are collection which is ordred and unchangable
+
+ Tuples items are ordered, unchangable, and allows duplicate values.
+
+ Tuples items are indexed, the first items has index [0], and second item has index [1] etc.
+
+ When we say the tuples are ordered, it means items has defined order, and that order will not change.
+
+ Tuples are unchangeable, meaning that cannot change, add or removed after  tuples are created.
+
+ Tuples allows duplicate values
+
+ To determine length of tuple, use len() function
+
+ Tuples can be of diffent type depending upon values stored
+ tuples1 = ("apple","banane")
+ tuples2 = (1,2,3,,4,5)
+ tuples3 = (True, False, True)
+
+ To update tuples first convert it into list them revconvert into tuple
+
+ 
