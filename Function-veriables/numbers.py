@@ -40,3 +40,9 @@ print(type(b))  # <class 'int'>
 d = complex(x)  # convert from int to complex
 print(d)  # (1+0j)
 print(type(d))  # <class 'complex'>
+
+
+import random
+print(random.randrange(1, 10))  # Returns a random integer from 1 to 9
+
+# print(random.randint(501,500))  # Returns a error because the first argument is greater than the second
