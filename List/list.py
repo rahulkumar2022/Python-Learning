@@ -58,3 +58,30 @@ while i < len(myList2):
 
 # List comprehension
 [print(x) for x in myList2]
+
+
+newList = []
+for x in myList2:
+    if x.isdigit() and int(x) % 2 == 0:
+        newList.append(x)
+print(newList)
+
+# List comprehension for even numbers
+evenList = [x for x in myList2 if x.isdigit() and int(x) % 2 == 0]
+print(evenList)
+
+# sorting with a list
+evenList.sort();
+print(evenList)
+evenList.sort(reverse=True)
+print(evenList)
+
+def myFunction(x):
+    return int(x) % 4 == 0
+
+evenList.sort(key=myFunction)
+print(evenList)
+
+newList = myList + myList2
+print(newList)
+
