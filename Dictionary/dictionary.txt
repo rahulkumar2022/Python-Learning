@@ -1,0 +1,18 @@
+Dictionary are used to store data values in key:value pairs.
+
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+Dictionary items are ordered, changeable, and do not allow duplicates.
+
+Dictionary items are presented in key:value pairs, and can be refeerred by using the key name.
+
+When we say that dictionaries are ordered, it means that the items have a defined order,
+and order will not change.
+
+Unordered means that the items do not have a defined order, you cannot refer to an items
+by using an index.
+
+Dictonary are changable, maning that we can change, add or remove items after the dictonary
+has been created.
+
+Dictionary cannot have two items with same key.
